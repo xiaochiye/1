@@ -1,0 +1,13 @@
+#include "stdio.h"
+#include "string.h"
+int main()
+{
+	char strExp[]="3+4";
+	
+	int l=strExp[0]-'0';
+	int r=strExp[2]-'0';
+	int v0=l+r;
+	printf("v0=%d\n\n",v0);
+
+	return 0;
+}
